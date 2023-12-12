@@ -29,7 +29,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 7% 15%;
 
 }
 
@@ -62,7 +62,16 @@ h3 {
 .tile-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 21%;
 }
+
+/*button*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
 
 /*section features*/
 
@@ -70,9 +79,10 @@ h3 {
     padding: 7% 15%;
 }
 
-.feature-box {
+.features-box {
     text-align: center;
     padding: 5%;
+
 }
 
 .icon {
@@ -105,8 +115,6 @@ h3 {
 }
 
 #press {
-    background-color: #ef8172 ;
-    text-align: center;
     padding-bottom: 3%;   
 }
 
