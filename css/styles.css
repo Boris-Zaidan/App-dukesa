@@ -1,46 +1,62 @@
 body {
     font-family: "montserrat ";
+    text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+    font-family: "montserrat-bold ";
+    
+}
+
+
+p {
+    color:#8f8f8f;
+
+}
+
+
+/* heading */
+
+.big-heading {
     font-family: 'montserrat-black, sans-serif';
     font-size: 3.5rem;
     line-height: 1.5;
     font-weight: 900;
-
 }
 
-h2 {
-    font-family: "montserrat-bold ";
-    font-size:3rem;
+.section-heading {
+    font-size: 3rem;
     line-height: 1.5;
 }
 
-
-h3 {
-    font-family: "montserrat-Bold";
-
-}
-
-#title {
-    background-color: #051d35;
-    color: #fff;
-
-}
+/*conteiner section*/
 
 .container-fluid {
-    padding:3% 7% 15%;
+    padding:7% 15%;
 
 }
+/*section*/
 
-.navbar-brand {
-    font-family: "ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
 }
 
-/* navigation bar*/
+.white-section {
+    background-color: #fff;
+}
+
+/*  Title Section */
+
+#title .container-fluid {
+    background-color: #051d35;
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+/* Navigation bar */
+
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -56,6 +72,12 @@ h3 {
     font-family: "montserrat ";
 
 }
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
 
 /* title-imagem */
 
@@ -66,27 +88,26 @@ h3 {
     right: 21%;
 }
 
-/*button*/
+/*buttons*/
 
 .download-button {
     margin: 5% 3% 5% 0;
 
 }
 
-
 /*section features*/
 
 #features {
-    padding: 7% 15%;
-    background-color: #fff;
     z-index: 1;
     position: relative;
 }
 
 .features-box {
-    text-align: center;
     padding: 5%;
 
+}
+.features-title {
+    font-size: 1.5rem;
 }
 
 .icon {
@@ -100,11 +121,9 @@ h3 {
 
 /*testimonials section */
 
-#testimonials {
-    padding: 5% 15%;
-    text-align: center;
-    background-color: #ef8172 ;
-    color: #fff;
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -112,10 +131,6 @@ h3 {
     border-radius: 100%;
     margin: 20px;
 
-}
-
-.carousel-item {
-    padding: 5% 15%;
 }
 
 #press {
@@ -131,35 +146,18 @@ h3 {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
-.pricing-column {
-   padding: 3% 2% ;
-}
-
-/*cta section*/
-
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-    padding:7% 15% ;
-    text-align: center;
-
-}
-.cta-heading {
-    font-family: 'montserrat-black';
-    font-size: 3.5rem;
+.price-text {
+    font-size: 3rem;
     line-height: 1.5;
-    text-align: center;
+
+} 
+.pricing-column {
+    padding: 3% 2%;
 }
 
 /*footer section*/
-#footer {
-    padding: 7% 15%;
-    text-align: center;
-}
-   
 .social-icon {
     margin: 20px 10px;
 
